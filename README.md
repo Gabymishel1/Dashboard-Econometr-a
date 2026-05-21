@@ -1,4 +1,4 @@
-\# 🌍 Gapminder Dashboard
+\#  Gapminder Dashboard
 
 
 
@@ -10,7 +10,7 @@ Dashboard interactivo construido con \*\*R Shiny\*\* que explora el dataset clá
 
 
 
-\## 📊 ¿Qué permite explorar?
+\##  ¿Qué permite explorar?
 
 
 
@@ -32,7 +32,7 @@ El dashboard responde preguntas como:
 
 
 
-\## 🗂️ Páginas
+\##  Páginas
 
 
 
@@ -70,7 +70,7 @@ Top 15 países ordenados por la variable seleccionada para el año y continente 
 
 
 
-\## 🎛️ Filtros globales
+\##  Filtros globales
 
 
 
@@ -90,7 +90,7 @@ Todas las páginas responden a tres filtros en la barra lateral:
 
 
 
-\## 📦 Dataset
+\##  Dataset
 
 
 
@@ -142,7 +142,7 @@ shiny::runApp("app.R")
 
 
 
-\## 📄 Licencia
+\##  Licencia
 
 
 
