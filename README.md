@@ -2,7 +2,7 @@
 
 
 
-Dashboard interactivo construido con \*\*R Shiny\*\* que explora el dataset clásico de \[Gapminder](https://www.gapminder.org/): esperanza de vida, PIB per cápita y población de 142 países entre 1952 y 2007.
+Dashboard interactivo construido con \*\*R Shiny\*\* que explora el dataset clásico de \[Gapminder]: esperanza de vida, PIB per cápita y población de 142 países entre 1952 y 2007.
 
 
 
@@ -10,7 +10,7 @@ Dashboard interactivo construido con \*\*R Shiny\*\* que explora el dataset clá
 
 
 
-\##  ¿Qué permite explorar?
+\ ¿Qué permite explorar?
 
 
 
@@ -32,35 +32,35 @@ El dashboard responde preguntas como:
 
 
 
-\##  Páginas
+\  Páginas
 
 
 
-\### Overview
+\ Overview
 
 Vista general del año y continente seleccionados. Muestra el número de países, esperanza de vida promedio, PIB per cápita promedio y población total como KPIs, junto con un ranking de los 10 países líderes en la variable elegida y un scatter plot que relaciona PIB, esperanza de vida y población simultáneamente.
 
 
 
-\### Mapa
+\ Mapa
 
 Mapa coroplético mundial que colorea cada país según el valor de la variable seleccionada, permitiendo identificar de un vistazo las desigualdades geográficas globales.
 
 
 
-\### Tendencias
+\ Tendencias
 
 Evolución temporal de cada continente entre 1952 y 2007. Incluye una regresión lineal sobre el promedio global por año y una tabla con proyecciones estimadas para 2012, 2017 y 2022.
 
 
 
-\### Burbujas
+\ Burbujas
 
 Animación año a año que muestra simultáneamente PIB per cápita (eje X, escala log), esperanza de vida (eje Y) y población (tamaño de burbuja). Permite ver cómo se han desplazado los países a lo largo del tiempo y comparar trayectorias entre regiones.
 
 
 
-\### Rankings
+\ Rankings
 
 Top 15 países ordenados por la variable seleccionada para el año y continente activos.
 
@@ -70,7 +70,7 @@ Top 15 países ordenados por la variable seleccionada para el año y continente 
 
 
 
-\##  Filtros globales
+\  Filtros globales
 
 
 
@@ -90,11 +90,11 @@ Todas las páginas responden a tres filtros en la barra lateral:
 
 
 
-\##  Dataset
+\  Dataset
 
 
 
-El proyecto usa el paquete \[`gapminder`](https://cran.r-project.org/package=gapminder) de R, que contiene datos de \*\*142 países\*\* en \*\*12 años\*\* (cada 5 años entre 1952 y 2007), con tres variables por observación:
+El proyecto usa el paquete \[`gapminder`]de R, que contiene datos de \*\*142 países\*\* en \*\*12 años\*\* (cada 5 años entre 1952 y 2007), con tres variables por observación:
 
 
 
@@ -118,19 +118,19 @@ El script `init.R` descarga y exporta el dataset a `data/processed/gapminder\_pr
 
 
 
-\## 🚀 Cómo ejecutar
+\ Cómo ejecutar
 
 
 
 ```r
 
-\# 1. Solo la primera vez: instala paquetes y genera el CSV
+\ 1. Solo la primera vez: instala paquetes y genera el CSV
 
 source("init.R")
 
 
 
-\# 2. Lanzar la app
+\ 2. Lanzar la app
 
 shiny::runApp("app.R")
 
@@ -141,10 +141,4 @@ shiny::runApp("app.R")
 \---
 
 
-
-\##  Licencia
-
-
-
-MIT — libre para usar, modificar y distribuir.
 
